@@ -1,8 +1,7 @@
-print (10)
-print ('Hello World! \
+print(10)
+print('Hello World! \
 It might rain today. \
 Tomorrow is Sunday.')
-print ('''Hellow World!
+print('''Hello World!
 It might rain today.
 Tomorrow is Sunday.''')
-       
