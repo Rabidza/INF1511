@@ -1,0 +1,11 @@
+f = open("aboutbook.txt", "r")
+line = f.readline()
+print("A line for file is:", line)
+f.seek(5)
+line = f.readline()
+print("The line from character 6 till end of line is:", line)
+print("The pointer is at location", f.tell())
+f.seek(10)
+line = f.read(15)
+print("The fifteen characters starting at location 11 are as:", line)
+f.close()  # NH: Textbook omitted this line -- shouldn't a file always be closed
