@@ -31,6 +31,7 @@ class MyForm(QtGui.QDialog):
 
         self.ui.labelResult.setText("Result: " + str(result))
 
+
 if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)
     myapp = MyForm()
